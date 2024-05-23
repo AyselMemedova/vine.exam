@@ -15,7 +15,7 @@ return (
                 <ul>
                     <li ><Link to={"/"}>Home</Link></li>
                     <li><Link to={"/basket"}>Basket</Link></li>
-                    <li>About</li>
+                    <li><Link to={"/wishlist"}>Wishlist</Link></li>
                     <li>Wines</li>
                     <li>Shop</li>
                     <li>Contact</li>

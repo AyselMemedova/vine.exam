@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 import Basket from '../../pages/site/basket/Basket'
 
 const Product = () => {
-    const { data, setdata, basket, setBasket } = useContext(MainContext);
+    const { data, setdata, basket, setBasket,wishlist,setWishlist } = useContext(MainContext);
 
     function addToBasket(_id) {
         const target = basket.find((x) => x._id == _id);
@@ -21,6 +21,20 @@ const Product = () => {
 
         setBasket([...basket])
         console.log(basket);
+    }
+
+    function addToWishlist(id){
+        const target=wishlist.find((x)=>x._id==id)
+        if(target){
+            const result=wishlist.filter((x)=>x._id!=id)
+            setWishlist(result)
+        }
+        else{
+            const targetOfDataBase=data.find((x)=>x._id==id)
+            // wishlist.push(targetOfDataBase)
+            setWishlist([...wishlist,targetOfDataBase])
+        }
+
     }
     const [search, setSearch] = useState("");
     const [sortBy, setSortBy] = useState(null);
@@ -73,6 +87,7 @@ const Product = () => {
                                                 <Link to={`/detail/${item._id}`}>View Details</Link>
 
                                                 <button id='basket' onClick={() => { addToBasket(item._id) }}  ><i class="fa-solid fa-bag-shopping"></i></button>
+                                                <button  id='basket'onClick={() => { addToWishlist(item._id) }}><i class="fa-solid fa-heart"></i></button>
 
 
 

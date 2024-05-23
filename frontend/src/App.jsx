@@ -9,6 +9,7 @@ function App() {
     const[error, setError] = useState('false');
     const [data, setdata] = useState([]);
     const[basket,setBasket]=useState([]);
+    const[wishlist,setWishlist]=useState([])
     const router = createBrowserRouter(ROUTES);
 
     useEffect(()=>{
@@ -18,8 +19,7 @@ function App() {
     return (
 
         <>
-        <MainContext.Provider value={{data, setdata, loading, setLoading, error, setError,basket,
-setBasket}}>
+        <MainContext.Provider value={{data, setdata, loading, setLoading, error, setError,basket,setBasket,wishlist ,setWishlist}}>
             <RouterProvider router={router }/>
         </MainContext.Provider>
         </>

@@ -8,6 +8,7 @@ import Home from "../pages/site/home/home"
 import Basket from "../pages/site/basket/Basket"
 import Productss from "../pages/admin/productss/productss"
 import Detail from "../pages/site/Detail/Detail"
+import Wishlist from "../pages/site/wishlist/Wishlist"
 
 const ROUTES =[
     {
@@ -21,6 +22,10 @@ const ROUTES =[
             {
                 path:"/basket",
                 element:<Basket/>
+            },
+            {
+                path:"/wishlist",
+                element:<Wishlist/>
             },
             {
                 path:"/detail/:id",
