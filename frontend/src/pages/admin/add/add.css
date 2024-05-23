@@ -1,0 +1,26 @@
+#field{
+    margin-top: 5px;
+    margin-left: 30%;
+    width: 550px;
+font-size: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+Form{
+    margin-top: 50px;
+
+}
+
+#submit{
+    margin-top: 5px;
+color: white;
+font-size: 20px;
+    padding: 30px;
+    margin-left: 30%;
+    width: 550px;
+    background-color: #930077;
+}

@@ -1,0 +1,29 @@
+.wines{
+    margin-top: 90px;
+    height: 450px;
+    background-image: url("https://preview.colorlib.com/theme/wines/images/hero_2.jpg.webp");
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.wines_text{
+    height: 50vh;
+    padding-top: 120px;
+    text-align: center;
+
+    p{
+        font-family: "Cinzel";
+        color: #fff;
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 5rem;
+        font-weight: 300;
+        color: #fff;
+        font-family: "Montserrat";
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}

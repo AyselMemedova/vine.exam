@@ -1,0 +1,95 @@
+.product_text{
+    text-align: center;
+    h4{
+        font-size: 2rem;
+        font-weight: 400;
+        font-family: "Cinzel";
+        margin-bottom: 10px;
+    }
+    p{
+    }
+
+    button{
+        border: none;
+        background: transparent;
+        margin-top: 15px;
+        font-size: 15px;
+        color: #930077;
+
+    }
+
+}
+
+.product{
+    margin-top: 70px;
+}
+.product_card{
+    margin-top: 160px;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    background-color: #80808028;
+    position: relative;
+}
+.product_img img{
+    width: 350px;
+    height: 350px;
+    bottom: 90px;
+    left: -10px;
+    position: absolute;
+}
+
+.product_card_text{
+    position: absolute;
+bottom: 10px;
+left: 60px;
+
+p{
+    font-size: 18px;
+}
+
+span{
+    line-height: 1.7;
+    color: gray;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-right: 25px;
+}
+
+}
+a{
+    text-decoration: none;
+    color: #930077;
+}
+#basket{
+    border: none;
+    background: transparent;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #930077;
+    color: white;
+    margin-left: 30px;
+}
+input{
+    margin-left: 50px;
+    width: 250px;
+    padding: 10px;
+    margin-right: 30px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: none;
+
+
+
+}
+.product_text{
+    margin-bottom: 50px;
+}
+.button_sira button{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-right: 30px;
+    padding: 10px;
+    border: none;
+    background: transparent;
+
+}

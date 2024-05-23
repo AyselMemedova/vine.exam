@@ -1,0 +1,45 @@
+.blog_text{
+    text-align: center;
+    h3{
+
+            font-size: 2rem;
+            font-weight: 400;
+            font-family: "Cinzel";
+    }
+    p{
+        line-height: 1.7;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+    span{
+        color: #930077;
+    };
+
+}
+.blog{
+    margin-top: 150px;
+}
+.blog_card{
+    margin-top: 90px;
+}
+.blog_card_img img{
+width: 350px;
+height: 230px;
+}
+.blog_card_text{
+    h3{
+        margin-top: 15px;
+        font-family: "Cinzel";
+        font-size: 20px;
+    }
+    p{
+        line-height: 1.7;
+        font-weight: 400;
+        font-size: 1rem;
+        color: grey;
+    }
+    span{
+        font-size: .8rem;
+        color: black;
+    }
+}

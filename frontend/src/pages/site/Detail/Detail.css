@@ -1,0 +1,10 @@
+.detail_all{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.detail_text{
+    margin-top: 120px;
+
+}

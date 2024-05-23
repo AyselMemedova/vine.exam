@@ -1,0 +1,34 @@
+.customer {
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+.customer_card{
+    text-align: center;
+    margin-left: 50px;
+
+}
+.customer_img img {
+    margin-bottom: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 4px solid #930077;
+}
+
+.customer_text {
+    font-family: "Cinzel";
+
+
+    p {
+        font-size: 20px;
+        line-height: 1.7;
+        color: gray;
+        text-transform: none !important;
+    }
+
+    span {
+        color: #930077 ;
+        font-size: 80%;
+        font-weight: 400;
+    }
+}
